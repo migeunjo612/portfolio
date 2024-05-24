@@ -1,0 +1,400 @@
+
+/* 노트북 & 테블릿 가로 (해상도 1024px ~ 1279px)*/ 
+@media all and (min-width:1024px) and (max-width:1279px) { 
+    .header .inner{
+        width: 1024px;
+    }
+    .header .inner .nav ul{
+        gap: 30px;
+    }
+    .main .main_visual .main_txt01{
+        width: 810px;
+    }
+    .main .main_visual .main_txt02{
+        width: 710px;
+    }
+    .main .main_visual .main_img {
+        width: 1024px;
+        gap: 20px;
+    }
+    .main .main_visual .main_img img{
+        width: 250px;
+        height: 251px;
+        object-fit: cover;
+    }
+    .main .main_visual .main_img img:nth-of-type(2){
+        width: 321px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .main {
+        width: 1280px;
+    }
+    .main .brand02 {
+        width: 1024px;
+    }
+    .main .brand02 .inner .content .article {
+        width: 445px;
+        height: 249px;
+    }
+    .main .brand02 .inner .content .article img{
+        object-fit: contain;
+    }
+    .main .brand03 .content {
+        margin: 50px;
+    }
+    .main .menu{
+        width: 1024px;
+    }
+    .main .menu .content .list .items div img {
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .main .rnd {
+        width: 1024px;
+    }
+    .main .rnd .content ul li {
+        width: 240px;
+    }
+    .main .story .inner{
+        width: 1024px;
+    }
+    .main .story .title{
+        padding-top: 80px;
+    }
+    .main .story .content ul li div h3{
+        font-size: 20px;
+    }
+    .main .profit01 {
+        width: 1024px;
+    }
+    .main .profit01 .content{
+        padding: 55px 15px;
+    }
+    .main .profit01 .content ul li{
+        width: 220px;
+    }
+    .main .profit01 .content ul{
+        gap: 20px;
+    }
+    .main .profit01 .content ul li h3{
+        font-size: 28px;
+    }
+    .main .profit01 .content ul li h4{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .main .profit02 .inner{
+        width: 1024px;
+    }
+    .main .information01 {
+        width: 1024px;
+    }
+    .main .information02 {
+        width: 1024px;
+    }
+    .main .support .inner {
+        width: 1280px;
+    }
+    .main .form {
+        width: 1024px;
+    }
+    .footer {
+        width: 1280px;
+    }
+    .footer div{
+        width: 1024px;
+    }
+    .topBtn{
+        right: 5%;
+    }
+} 
+
+/* 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) { 
+    .header .inner{
+        width: 768px;
+    }
+    .header .inner .nav ul{
+        gap: 30px;
+        display: none;
+    }
+    .main {
+        width: 1280px;
+    }
+    .main .main_visual .main_txt01{
+        width: 810px;
+    }
+    .main .main_visual .main_txt02{
+        width: 710px;
+    }
+
+    .main .main_visual .main_img {
+        width: 1024px;
+        gap: 20px;
+    }
+    .main .main_visual .main_img img{
+        width: 250px;
+        height: 251px;
+        object-fit: cover;
+    }
+    .main .main_visual .main_img img:nth-of-type(2){
+        width: 321px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .main .brand02 {
+        width: 1024px;
+    }
+    .main .brand02 .inner .content {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border: 1px solid #262B9C;
+        padding: 50px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .main .brand02 .inner .content .article {
+        width: 768px;
+        height: 445px;
+    }
+    .main .brand02 .inner .content .article img{
+        object-fit: contain;
+    }
+    .main .brand03{
+        width: 1024px;
+    }
+    .main .brand03 .content {
+        margin: 50px;
+    }
+    .main .menu{
+        width: 1024px;
+    }
+    .main .menu .content .list .items div img {
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .main .rnd {
+        width: 1024px;
+    }
+    .main .rnd .content ul li {
+        width: 240px;
+    }
+    .main .story .inner{
+        width: 1024px;
+    }
+    .main .story .title{
+        padding-top: 80px;
+    }
+    .main .story .content ul li div h3{
+        font-size: 20px;
+    }
+    .main .profit01 {
+        width: 1024px;
+    }
+    .main .profit01 .content{
+        padding: 55px 15px;
+    }
+    .main .profit01 .content ul li{
+        width: 220px;
+    }
+    .main .profit01 .content ul{
+        gap: 20px;
+    }
+    .main .profit01 .content ul li h3{
+        font-size: 28px;
+    }
+    .main .profit01 .content ul li h4{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .main .profit02 .inner{
+        width: 1024px;
+    }
+    .main .information01 {
+        width: 1024px;
+    }
+    .main .information02 {
+        width: 768px;
+    }
+    .main .information02 .content .table02 {
+        width: 700px;
+        padding: 20px 40px;
+    }
+    .main .support .inner {
+        width: 1280px;
+    }
+    .main .form {
+        width: 768px;
+    }
+    .main .form .content{
+        width: 700px;
+        padding: 40px;
+    }
+    .main .form .form_radio .select{
+        width: 100px;
+    }
+    .footer {
+        width: 1280px;
+    }
+    .footer div{
+        width: 768px;
+    }
+    .topBtn{
+        right: 5%;
+    }
+} 
+
+/* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width:480px) and (max-width:767px) {
+    .header .inner{
+        width: 768px;
+    }
+    .header .inner .nav ul{
+        gap: 30px;
+        display: none;
+    }
+    .main {
+        width: 1280px;
+    }
+    .main .main_visual .main_txt01{
+        width: 810px;
+    }
+    .main .main_visual .main_txt02{
+        width: 710px;
+    }
+
+    .main .main_visual .main_img {
+        width: 1024px;
+        gap: 20px;
+    }
+    .main .main_visual .main_img img{
+        width: 250px;
+        height: 251px;
+        object-fit: cover;
+    }
+    .main .main_visual .main_img img:nth-of-type(2){
+        width: 321px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .main .brand02 {
+        width: 1024px;
+    }
+    .main .brand02 .inner .content {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border: 1px solid #262B9C;
+        padding: 50px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .main .brand02 .inner .content .article {
+        width: 768px;
+        height: 445px;
+    }
+    .main .brand02 .inner .content .article img{
+        object-fit: contain;
+    }
+    .main .brand03{
+        width: 1024px;
+    }
+    .main .brand03 .content {
+        margin: 50px;
+    }
+    .main .menu{
+        width: 1024px;
+    }
+    .main .menu .content .list .items div img {
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .main .rnd {
+        width: 1024px;
+    }
+    .main .rnd .content ul li {
+        width: 240px;
+    }
+    .main .story .inner{
+        width: 1024px;
+    }
+    .main .story .title{
+        padding-top: 80px;
+    }
+    .main .story .content ul li div h3{
+        font-size: 20px;
+    }
+    .main .profit01 {
+        width: 1024px;
+    }
+    .main .profit01 .content{
+        padding: 55px 15px;
+    }
+    .main .profit01 .content ul li{
+        width: 220px;
+    }
+    .main .profit01 .content ul{
+        gap: 20px;
+    }
+    .main .profit01 .content ul li h3{
+        font-size: 28px;
+    }
+    .main .profit01 .content ul li h4{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .main .profit02 .inner{
+        width: 1024px;
+    }
+    .main .profit02 .inner .content{
+        flex-wrap: wrap;
+    }
+    .main .profit02 .inner .content div{
+        width: 80%;
+    }
+    .main .profit02 .inner .content .table01 {
+        width: 80%;
+        margin-top: 30px;
+     }
+    .main .information01 {
+        width: 1024px;
+    }
+    .main .information02 {
+        width: 768px;
+    }
+    .main .information02 .content .table02 {
+        width: 700px;
+        padding: 20px 40px;
+    }
+    .main .support .inner {
+        width: 1280px;
+    }
+    .main .form {
+        width: 768px;
+    }
+    .main .form .content{
+        width: 700px;
+        padding: 40px;
+    }
+    .main .form .form_radio .select{
+        width: 100px;
+    }
+    .footer {
+        width: 1280px;
+    }
+    .footer div{
+        width: 768px;
+    }
+    .topBtn{
+        right: 5%;
+    }
+} 
+
+/* 모바일 세로 (해상도 ~ 479px)*/ 
+@media all and (max-width:479px) {
+
+}
