@@ -23,16 +23,17 @@ body {
     /* font-family: 'SCoreDream';
     font-weight: 400; */
     font-family: 'SUIT', sans-serif;
+    background-color: #fff;
 }
 main section .title h2 {
     font-family: 'Godo';
-    font-size: 40px;
+    font-size: 60px;
     color: #262B9C;
 }
 main section .title p {
     font-size: 25px;
     color: #262B9C;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .arrow img{
     width: 44px;
@@ -58,6 +59,28 @@ main section .title p {
 }
 /* 공통 end */
 
+/* top button */
+.wrap {
+    position: relative;
+}
+.topBtn {
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+
+    display:scroll;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #262B9C;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #fff;
+}
+
 /* header nav */
 .header {
     width: 100%;
@@ -65,6 +88,8 @@ main section .title p {
     height: 100px;
     text-align: center;
     font-family: 'Godo', sans-serif;
+    position: fixed;
+    z-index: 100;
 }
 .header .inner {
     width: 1280px;
@@ -107,7 +132,7 @@ main section .title p {
     position: relative;
     text-align: center;
     margin: 0 auto;
-    height: 800px;
+    height: 900px;
     width: 100%;
 }
 .main .main_visual .main_txt01{
@@ -115,7 +140,7 @@ main section .title p {
     height: 100%;
     position: absolute;
     margin-top: 100px;
-    top: 50%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -129,14 +154,14 @@ main section .title p {
     height: 800px;
     position: absolute;
     margin-top: 100px;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
 }
 .main .main_visual .main_img {
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -176,8 +201,9 @@ main section .title p {
     color: #fff;
 }
 .main .brand01 .title img {
-    width: 191px;
+    width: 400px;
     object-fit: cover;
+    margin-left: 20px;
 }
  .main .brand01 .content {
     width: 1280px;
@@ -270,25 +296,27 @@ main section .title p {
 /* section logo slide */
 .main .logo_slide {
     background-color: #262B9C;
-    height: 100%;
+    height: 100px;
     overflow: hidden;
 }
 .main .logo_slide div {
-    animation-name: logoSlide;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    display: flex;
+    justify-content: flex-start;
 }
 .main .logo_slide div img {
-    width: 140px;
-    margin: 26px 50px;
+    width: 100%;
+    height: 100%;
+    animation: logoSlide 20s infinite linear
+}
+.main .logo_slide div .slide02 {
+    right: -100%;
 }
 @keyframes logoSlide {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0);
     } /* 시작 */
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-80%);
     } /* 끝 */
 }
 
@@ -341,10 +369,7 @@ main section .title p {
     justify-content: center;
 }
 .main .menu .content .list .items div{
-    margin-right: 28px;
-}
-.main .menu .content .list .items div:last-child{
-    margin-right: 0px;
+    margin: 0 14px;
 }
 .main .menu .content .list .items div img {
     width: 190px;
@@ -394,7 +419,7 @@ main section .title p {
 }
 .main .story .title h2{
     font-family: 'Godo', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     color: #fff;
 }
 .main .story .content {
@@ -553,8 +578,13 @@ main section .title p {
     margin: 150px auto;
     text-align: center;
 }
+.main .information01 .title strong{
+    font-size: 40px;
+    color: #262B9C;
+}
 .main .information01 .title h2 {
     line-height: 1.3;
+    margin-top: 20px;
 }
 .main .information01 .content {
     margin-top: 50px;
@@ -642,14 +672,16 @@ main section .title p {
     border-bottom: 0;
 }
 .main .information02 .content .table02 table tr:nth-child(11) th{
-    font-size: 30px;
+    font-size: 40px;
     color: #262B9C;
     border-top: 2px solid #262B9C;
+    font-weight: 700;
 }
 .main .information02 .content .table02 table tr:nth-child(11) td{
     color: #262B9C;
     border-top: 2px solid #262B9C;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700;
 }
 .main .information02 .content .table02 table tr:nth-child(11) td del {
     font-size: 25px;
@@ -701,7 +733,7 @@ main section .title p {
     left: 38%;
 }
 .main .support .inner .content ul li p {
-    font-weight: 600;
+    font-weight: 800;
     padding-top: 40px;
     box-sizing: border-box;
     border-top: 1px solid #262B9C;
