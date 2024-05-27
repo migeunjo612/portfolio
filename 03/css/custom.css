@@ -1027,7 +1027,14 @@ main section .title p {
         width: 1024px;
     }
     .main .brand03 .content {
-        margin: 50px;
+        margin: 50px 15px;
+    }
+    .main .brand03 .content canvas {
+        width: 90%;
+    }
+    .main .logo_slide div img {
+        height: 100px;
+        width: 1497px;
     }
     .main .menu{
         width: 1024px;
